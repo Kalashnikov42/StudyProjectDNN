@@ -8,15 +8,6 @@ from sklearn.metrics import mean_absolute_error as MAE
 from sklearn.metrics import explained_variance_score
 from sklearn.metrics import roc_curve, auc
 
-# NOTE: during this project I've changed my coding style
-# and was too lazy to edit the old code to match the new style
-# so please ignore any style related wierdness
-# thanks for not being petty about unimportant shit
-
-# ALSO NOTE: prints are for logging purposes
-
-#%% helper functions
-
 
 def dict2bin(row_inds_spike_times_map, num_segments, sim_duration_ms):
     
