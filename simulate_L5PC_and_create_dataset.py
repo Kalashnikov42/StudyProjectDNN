@@ -18,14 +18,6 @@ except:
 
 np.random.seed(randomSeed)
 
-# NOTE: during this project I've changed my coding style
-# and was too lazy to edit the old code to match the new style
-# so please ignore any style related wierdness
-# thanks for not being petty about unimportant shit
-
-# ALSO NOTE: prints are for logging purposes
-
-#%% define simulation params
 
 # general simulation parameters
 numSimulations = 128
