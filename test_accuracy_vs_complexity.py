@@ -5,16 +5,6 @@ import glob
 import pickle
 from scipy.stats import norm
 
-# NOTE: during this project I've changed my coding style
-# and was too lazy to edit the old code to match the new style
-# so please ignore any style related wierdness
-# thanks for not being petty about unimportant shit
-
-# ALSO NOTE: prints are for logging purposes
-
-#%% open all evaluations pickles and create a compact csv file
-
-
 def extract_useful_info(learning_dict_filename, req_results_key='starting_at_500ms_spikes_in_[0,24]_range'):
     
     learning_dict = pickle.load(open(learning_dict_filename, "rb" ), encoding='latin1')
