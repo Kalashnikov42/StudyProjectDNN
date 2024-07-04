@@ -7,15 +7,6 @@ import glob
 import time
 from keras.models import Model, load_model
 
-# NOTE: during this project I've changed my coding style
-# and was too lazy to edit the old code to match the new style
-# so please ignore any style related wierdness
-# thanks for not being petty about unimportant shit
-
-# ALSO NOTE: prints are for logging purposes
-
-#%% copy models from models folder to best models folder according to the "best_results_valid_105_models.csv" file
-
 models_dir      = '/Reseach/Single_Neuron_InOut/models/'
 best_models_dir = '/Reseach/Single_Neuron_InOut/models/best_models/'
 
