@@ -26,11 +26,6 @@ save_figures = False
 # save_figures = True
 all_file_endings_to_use = ['.png', '.pdf', '.svg']
 
-# NOTE: during this project I've changed my coding style
-# and was too lazy to edit the old code to match the new style
-# so please ignore any style related wierdness
-# thanks for not being petty about unimportant shit
-
 output_figures_dir = '/Reseach/Single_Neuron_InOut/figures/IF/'
 
 #%% some helper functions
